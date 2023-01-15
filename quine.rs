@@ -1,0 +1,1 @@
+fn main() { let mut a = String::from("fn main() { let mut a = String::from(); a.insert_str(37, &a.to_owned()); for x in [37, 187, 291, 294] { a.insert(x, 34 as char) }; println!({}, a); }"); a.insert_str(37, &a.to_owned()); for x in [37, 187, 291, 294] { a.insert(x, 34 as char) }; println!("{}", a); }
